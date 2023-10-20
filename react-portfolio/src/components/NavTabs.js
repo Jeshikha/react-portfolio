@@ -23,6 +23,15 @@ function NavTabs(props) {
       </li>
       <li className="nav-item">
         <a
+          href="#myportfolio"
+          onClick={() => props.handlePageChange("MyPortfolio")}
+          className={props.currentPage === "MyPortfolio" ? "nav-link active" : "nav-link"}
+        >
+          My Portfolios
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
           href="#blog"
           onClick={() => props.handlePageChange("Blog")}
           className={props.currentPage === "Blog" ? "nav-link active" : "nav-link"}
