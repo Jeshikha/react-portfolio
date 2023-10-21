@@ -1,0 +1,67 @@
+/* Contact.css */
+
+.contact-page {
+    background: url("../pages/back.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #007bff; /* Change to the color you prefer on hover */
+  }
+  
+  form {
+    margin: 0 auto; /* Center the form horizontally */
+    max-width: 600px; /* Limit the width of the form */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin: 0 auto; /* Center the input fields horizontally */
+  }
+  
+  button {
+    background-color: #007bff; /* Change to the color you prefer */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change to the color you prefer on hover */
+  }
+  

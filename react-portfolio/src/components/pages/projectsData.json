@@ -1,0 +1,38 @@
+[
+    {
+        "title": "AstroQuiz",
+        "githubLink": "https://github.com/Jeshikha/AstroQuiz",
+        "deployedLink": "https://jeshikha.github.io/AstroQuiz/",
+        "imageURL": "astro.png"
+    },
+    {
+        "title": "Weather App",
+        "githubLink": "https://jeshikha.github.io/weather-dashboard/",
+        "deployedLink": "https://github.com/Jeshikha/weather-dashboard",
+        "imageURL": "weather.png"
+    },
+    {
+        "title": "Bootstrap Portfolio",
+        "githubLink": "https://jeshikha.github.io/Bootstrap-Portfolio/",
+        "deployedLink": "https://github.com/Jeshikha/Bootstrap-Portfolio",
+        "imageURL": "bootstrap.png"
+    },
+    {
+        "title": "Web Developer Quiz",
+        "githubLink": "https://jeshikha.github.io/code-quiz/",
+        "deployedLink": "https://github.com/Jeshikha/code-quiz",
+        "imageURL": "quiz.png"
+    },
+    {
+        "title": "Password Generator",
+        "githubLink": "https://jeshikha.github.io/password-generator/",
+        "deployedLink": "https://github.com/Jeshikha/password-generator",
+        "imageURL": "password.png"
+    },
+    {
+        "title": "Basic Portfolio",
+        "githubLink": "https://jeshikha.github.io/my-portfolio/",
+        "deployedLink": "https://github.com/Jeshikha/my-portfolio",
+        "imageURL": "css.png"
+    }
+]

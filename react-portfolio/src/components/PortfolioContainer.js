@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
+// import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import MyPortfolio from "./pages/myPortfolio";
 import Footer from "./pages/Footer";
@@ -38,13 +38,7 @@ class Portfolio extends Component {
           <Footer /> {/* Include the Footer component on the MyPortfolio page */}
         </>
       );
-    } else if (this.state.currentPage === "Blog") {
-      return (
-        <>
-          <Blog />
-          <Footer /> {/* Include the Footer component on the Blog page */}
-        </>
-      );
+  
     } else {
       return (
         <>
