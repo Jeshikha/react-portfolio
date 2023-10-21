@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import MyPortfolio from "./pages/myPortfolio";
+import Footer from "./pages/Footer";
 
 class Portfolio extends Component {
   state = {
@@ -17,15 +18,40 @@ class Portfolio extends Component {
 
   renderPage = () => {
     if (this.state.currentPage === "Home") {
-      return <Home />;
+      return (
+        <>
+          <Home />
+          <Footer /> {/* Include the Footer component on the Home page */}
+        </>
+      );
     } else if (this.state.currentPage === "About") {
-      return <About />;
+      return (
+        <>
+          <About />
+          <Footer /> {/* Include the Footer component on the About page */}
+        </>
+      );
     } else if (this.state.currentPage === "MyPortfolio") {
-      return <MyPortfolio />;
+      return (
+        <>
+          <MyPortfolio />
+          <Footer /> {/* Include the Footer component on the MyPortfolio page */}
+        </>
+      );
     } else if (this.state.currentPage === "Blog") {
-      return <Blog />;
+      return (
+        <>
+          <Blog />
+          <Footer /> {/* Include the Footer component on the Blog page */}
+        </>
+      );
     } else {
-      return <Contact />;
+      return (
+        <>
+          <Contact />
+          <Footer /> {/* Include the Footer component on the Contact page */}
+        </>
+      );
     }
   };
 
