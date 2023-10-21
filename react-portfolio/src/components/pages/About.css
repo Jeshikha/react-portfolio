@@ -1,0 +1,68 @@
+/* styles/About.css */
+
+.about-container {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    
+  }
+  
+  .about-header {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .profile-section {
+    text-align: center;
+
+  }
+  
+  .profile-image {
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .description-section {
+    text-align: center;
+    padding: 20px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    background-color: #333333c8;
+    color: aliceblue;
+  }
+  
+  .skills-section {
+    text-align: left;
+    margin-top: 2rem;
+  }
+  
+  .skills-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .skills-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-section li {
+    margin-bottom: 10px;
+  }
+  
+  .skills-section li::before {
+    content: "•";
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  

@@ -1,8 +1,9 @@
 import React from "react";
+import "./NavTabs.css"; // Import the CSS file for custom styles
 
 function NavTabs(props) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs custom-nav">
       <li className="nav-item">
         <a
           href="#home"
@@ -27,7 +28,7 @@ function NavTabs(props) {
           onClick={() => props.handlePageChange("MyPortfolio")}
           className={props.currentPage === "MyPortfolio" ? "nav-link active" : "nav-link"}
         >
-          My Portfolios
+          My Portfolio
         </a>
       </li>
       <li className="nav-item">

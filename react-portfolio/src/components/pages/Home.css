@@ -1,0 +1,46 @@
+/* Home.css */
+
+/* Styling for the entire home container */
+.home-container {
+    background: url("../pages/back.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the name container */
+.name-container {
+    background-color: rgba(0, 0, 0, 0.429);
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the name text */
+.name-text {
+    font-size: 70px; /* adjust the font size */
+    font-weight: bold; /* Bold font weight */
+  }
+
+/* Styling for the bio container */
+.bio-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 5rem;
+}
+
+/* Styling for the social container */
+.social-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

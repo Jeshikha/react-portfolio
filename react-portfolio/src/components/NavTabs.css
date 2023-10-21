@@ -1,0 +1,12 @@
+.custom-nav {
+    background-color: #333; /* Dark background color */
+  }
+  
+  .custom-nav .nav-link {
+    color: white; /* Text color */
+  }
+  
+  .custom-nav .nav-link:hover {
+    background-color: #555; /* Change background on hover */
+    color: white; /* Text color on hover */
+  }
