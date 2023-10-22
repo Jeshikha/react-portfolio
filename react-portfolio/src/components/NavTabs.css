@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/mochain?styles=163150');
 .custom-nav {
     background-color: #333; /* Dark background color */
   }
@@ -9,4 +10,13 @@
   .custom-nav .nav-link:hover {
     background-color: #555; /* Change background on hover */
     color: white; /* Text color on hover */
+  }
+  .navbar-brand {
+    font-size: 2rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Add font weight if desired */
+    color: #a24ee6; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    margin-left: 10px;
+    font-family: 'Mochain', sans-serif;  
+    /* Add other styles as needed */
   }

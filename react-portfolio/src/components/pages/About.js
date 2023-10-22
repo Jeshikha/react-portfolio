@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="description-section">
           <p>
-            I am currently pursuing my studies at the University of Birmingham. My passion lies in web development, and I am actively learning and building web applications. I aspire to become a proficient full-stack developer and contribute to innovative and user-friendly projects.
+            "I am currently pursuing front-end Web development certificate at the University of Birmingham. My passion lies in web development, and I am actively learning and building web applications. I aspire to become a proficient full-stack developer and contribute to innovative and user-friendly projects."
           </p>
         </div>
         <div className="skills-section">

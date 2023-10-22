@@ -1,68 +1,88 @@
-/* styles/About.css */
-
+/* About.css or your CSS file for the "About Me" page */
+@import url('https://fonts.cdnfonts.com/css/mochain?styles=163150');
 .about-container {
-    text-align: center;
-    padding: 20px;
-    font-size: 1.2rem;
-    
-  }
-  
-  .about-header {
-    font-size: 4rem;
-    font-weight: bold;
-  }
-  
-  .about-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  .profile-section {
-    text-align: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  position: relative; /* Set position to relative for stacking elements */
+}
 
-  }
-  
-  .profile-image {
-    max-width: 300px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-  }
-  
-  .description-section {
-    text-align: center;
-    padding: 20px;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    background-color: #333333c8;
-    color: aliceblue;
-  }
-  
-  .skills-section {
-    text-align: left;
-    margin-top: 2rem;
-  }
-  
-  .skills-section h2 {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .skills-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .skills-section li {
-    margin-bottom: 10px;
-  }
-  
-  .skills-section li::before {
-    content: "•";
-    margin-right: 10px;
-    color: #333;
-  }
-  
+/* Add a background image and overlay */
+.about-container::before {
+  content: "";
+  background-image: url("../pages/back.jpg"); /* Replace with the path to your cover image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place the image behind the content */
+  opacity: 0.5; /* Adjust the opacity as needed */
+}
+
+/* Your existing styles for the content */
+.about-header {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Mochain', sans-serif;
+  color: rgba(130, 16, 172, 0.842);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.profile-section {
+  text-align: center;
+}
+
+.profile-image {
+  max-width: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.description-section {
+  text-align: center;
+  padding: 20px;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  background-color: rgba(137, 21, 231, 0.353);
+  color: rgb(11, 11, 11);
+  font-family: 'Mochain', sans-serif;
+  font-weight: bold;
+}
+
+.skills-section {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.skills-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-section li {
+  margin-bottom: 10px;
+}
+
+.skills-section li::before {
+  content: "•";
+  margin-right: 10px;
+  color: #333;
+}
+
   

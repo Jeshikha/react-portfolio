@@ -10,10 +10,11 @@ const Home = () => {
         </div>
         <div className="bio-container">
           <p>
-            I'm an aspiring web developer based in Birmingham, passionate about creating innovative and user-friendly web applications. I've recently embarked on my coding journey and am excited to learn and grow in the ever-evolving world of technology.
+            I'm an aspiring web developer based in Birmingham, passionate about creating innovative and user-friendly web applications. I've recently embarked on my coding journey and excited to learn and grow in the ever-evolving world of technology.
           </p>
         </div>
         <div className="social-container">
+          <p>Let's Connect and Stay tuned with my new projects!</p>
           <a href="https://www.linkedin.com/in/jessrama/" className="btn btn-primary me-2">
             LinkedIn
           </a>

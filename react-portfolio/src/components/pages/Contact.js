@@ -1,5 +1,8 @@
+// Contact.js
+
 import React from "react";
 import "../pages/Contact.css";
+
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -8,27 +11,27 @@ const Contact = () => {
 
   return (
     <div className="contact-page">
-      <h1>Contact Me</h1>
+      <h1>Get in Touch</h1>
 
       {/* Contact Information */}
       <div className="contact-info">
-        <p>Email: jess@designed.mu</p>
-        <p>
-          <a href="https://docs.google.com/document/d/1YBNmdwlT6HextnST97R3AJ_yp9fdw7KwtmlXuxfyOAY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-            Download my CV
-          </a>
-        </p>
-        <p>
-          <a href="https://github.com/Jeshikha" target="_blank" rel="noopener noreferrer">
-            GitHub Profile
-          </a>
-        </p>
-        <p>
-          <a href="https://www.linkedin.com/in/jessrama/" target="_blank" rel="noopener noreferrer">
-            LinkedIn Profile
-          </a>
-        </p>
-      </div>
+  <p>Email: jess@designed.mu</p>
+  <p>
+    <a href="https://docs.google.com/document/d/1YBNmdwlT6HextnST97R3AJ_yp9fdw7KwtmlXuxfyOAY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="contact-button">
+      Download my CV
+    </a>
+  </p>
+  <p>
+    <a href="https://github.com/Jeshikha" target="_blank" rel="noopener noreferrer" className="contact-button">
+      GitHub Profile
+    </a>
+  </p>
+  <p>
+    <a href="https://www.linkedin.com/in/jessrama/" target="_blank" rel="noopener noreferrer" className="contact-button">
+      LinkedIn Profile
+    </a>
+  </p>
+</div>
 
       {/* Contact Form */}
       <form onSubmit={handleSubmit}>
@@ -51,4 +54,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

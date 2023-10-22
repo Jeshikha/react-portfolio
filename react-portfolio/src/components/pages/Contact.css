@@ -1,5 +1,5 @@
 /* Contact.css */
-
+@import url('https://fonts.cdnfonts.com/css/mochain?styles=163150');
 .contact-page {
     background: url("../pages/back.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -7,9 +7,15 @@
     padding: 20px;
     text-align: center;
   }
+  .contact-page h1{
+  font-size: 5rem;
+  font-family: 'Mochain', sans-serif;  
+
+  }
   
   .contact-info {
     margin-bottom: 20px;
+    
   }
   
   .contact-info p {
@@ -52,7 +58,7 @@
   }
   
   button {
-    background-color: #007bff; /* Change to the color you prefer */
+    background-color: #6b47e0; /* Purple color */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -62,6 +68,22 @@
   }
   
   button:hover {
-    background-color: #0056b3; /* Change to the color you prefer on hover */
+    background-color: #5329b6; /* Darker purple on hover */
+    
+  }
+  .contact-button {
+    display: inline-block;
+    padding: 10px 70px;
+    background-color: #6b47e0; /* Purple color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Rounded edges */
+    transition: background-color 0.3s, transform 0.2s;
   }
   
+  .contact-button:hover {
+    background-color: #722bb9; /* Darker purple on hover */
+    transform: scale(1.05); /* Enlarge on hover */
+    color: #fff;
+  }
