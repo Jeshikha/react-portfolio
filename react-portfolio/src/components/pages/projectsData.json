@@ -3,36 +3,42 @@
         "title": "AstroQuiz",
         "githubLink": "https://github.com/Jeshikha/AstroQuiz",
         "deployedLink": "https://jeshikha.github.io/AstroQuiz/",
-        "imageURL": "astro.png"
+        "imageURL": "https://github.com/Jeshikha/AstroQuiz/raw/main/images/home.png",
+        "description": "AstroQuiz offers an engaging and educational quiz experience focused on our planetary system and celestial bodies. The app features captivating NASA imagery APIs and and a Star Wars-inspired crawl on the homepage, setting the stage for a unique and immersive experience. Users can test their cosmic knowledge, accumulate scores, and gauge their progress with a dynamic distance tracker."
     },
     {
         "title": "Weather App",
         "githubLink": "https://jeshikha.github.io/weather-dashboard/",
         "deployedLink": "https://github.com/Jeshikha/weather-dashboard",
-        "imageURL": "weather.png"
+        "imageURL": "https://github.com/Jeshikha/weather-dashboard/raw/main/assets/webop.png",
+        "description": "The Weather Dashboard App is a web-based weather forecast application that allows users to retrieve current and future weather information for multiple cities. Users can plan their trips and outdoor activities by checking the weather conditions for different locations. This application uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface."
     },
     {
         "title": "Bootstrap Portfolio",
         "githubLink": "https://jeshikha.github.io/Bootstrap-Portfolio/",
         "deployedLink": "https://github.com/Jeshikha/Bootstrap-Portfolio",
-        "imageURL": "bootstrap.png"
+        "imageURL": "https://github.com/Jeshikha/Bootstrap-Portfolio/raw/main/images/Screen2.png",
+        "description": "This project is a part of my web development journey, where I have recreated my portfolio site using Bootstrap. The portfolio showcases my work, skills, and provides information about me. I have followed the guidelines of the instructions given in the module challenge to construct a website with the help of Bootstrap templates. Creating this portfolio was an enriching experience that pushed me to learn and grow. "
     },
     {
         "title": "Web Developer Quiz",
         "githubLink": "https://jeshikha.github.io/code-quiz/",
         "deployedLink": "https://github.com/Jeshikha/code-quiz",
-        "imageURL": "quiz.png"
+        "imageURL": "https://github.com/Jeshikha/code-quiz/raw/main/assets/images/question.png",
+        "description": "The Coding Quiz Challenge is a web-based application that I developed to offer users a timed quiz on JavaScript, HTML and CSS fundamentals while also enabling the storage of high scores. It follows the structure and principles of a typical coding assessment, offering a combination of multiple-choice questions and interactive coding challenges. The quiz is timed, and incorrect answers lead to time deductions, simulating the conditions of a real coding challenge."
     },
     {
         "title": "Password Generator",
         "githubLink": "https://jeshikha.github.io/password-generator/",
         "deployedLink": "https://github.com/Jeshikha/password-generator",
-        "imageURL": "password.png"
+        "imageURL": "https://github.com/Jeshikha/password-generator/raw/main/images/successful.png",
+        "description": "Password Generator app was to create a web application for employees, that they can use to generate a random password based on criteria they have selected. The application features a starter code of HTML and CSS, and refactoring functionalities all powered by JavaScript code."
     },
     {
         "title": "Basic Portfolio",
         "githubLink": "https://jeshikha.github.io/my-portfolio/",
         "deployedLink": "https://github.com/Jeshikha/my-portfolio",
-        "imageURL": "css.png"
+        "imageURL": "https://github.com/Jeshikha/my-portfolio/raw/main/images/screenshot1.png",
+         "description": "This project is a portfolio page that displays my name as 'Digital Artisan Jess', a recent photo of me, and links to different sections about me, my future works and creations, and contact information. The portfolio is designed to be visually appealing and user-friendly. It helped me use the core skills that I have learnt on HTML and CSS so far, such as flexbox, media queries, and CSS variables to ensure a responsive layout that adapts to various screen sizes and devices."
     }
 ]

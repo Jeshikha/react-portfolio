@@ -14,17 +14,17 @@ const Contact = () => {
       <div className="contact-info">
         <p>Email: jess@designed.mu</p>
         <p>
-          <a href="./pages/cv.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.google.com/document/d/1YBNmdwlT6HextnST97R3AJ_yp9fdw7KwtmlXuxfyOAY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
             Download my CV
           </a>
         </p>
         <p>
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Jeshikha" target="_blank" rel="noopener noreferrer">
             GitHub Profile
           </a>
         </p>
         <p>
-          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/jessrama/" target="_blank" rel="noopener noreferrer">
             LinkedIn Profile
           </a>
         </p>

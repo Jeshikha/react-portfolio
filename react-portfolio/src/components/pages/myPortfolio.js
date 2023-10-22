@@ -1,15 +1,29 @@
-import React from "react";
-import "../pages/projectCard.css";
-const projects = require('./projectsData.json');
+import React, { useState } from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "../pages/projectCard.css"; // Your CSS file
 
 const MyPortfolio = () => {
-    return (
-      <div className="projects-page">
-        <div className="project-row">
+  const projects = require('./projectsData.json');
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const handleNextSlide = () => {
+    setCurrentSlide((currentSlide + 1) % projects.length);
+  };
+
+  const handlePrevSlide = () => {
+    setCurrentSlide((currentSlide - 1 + projects.length) % projects.length);
+  };
+
+  return (
+    <div className="projects-page">
+      <div className="carousel-container">
+        <Carousel selectedItem={currentSlide} showThumbs={false}>
           {projects.map((project, index) => (
             <div key={index} className="project-card">
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
+                <p className="project-description">{project.description}</p>
                 <a href={project.deployedLink} target="_blank" rel="noopener noreferrer" className="project-link">
                   Deployed Version
                 </a>
@@ -20,9 +34,14 @@ const MyPortfolio = () => {
               </div>
             </div>
           ))}
-        </div>
+        </Carousel>
       </div>
-    );
+      <div className="carousel-controls">
+        <button onClick={handlePrevSlide}>Previous</button>
+        <button onClick={handleNextSlide}>Next</button>
+      </div>
+    </div>
+  );
 };
 
 export default MyPortfolio;
