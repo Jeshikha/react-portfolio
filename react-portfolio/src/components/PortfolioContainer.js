@@ -21,21 +21,21 @@ class Portfolio extends Component {
       return (
         <>
           <Home />
-          <Footer /> {/* Include the Footer component on the Home page */}
+          <Footer /> {/* Including the Footer component on the Home page */}
         </>
       );
     } else if (this.state.currentPage === "About") {
       return (
         <>
           <About />
-          <Footer /> {/* Include the Footer component on the About page */}
+          <Footer /> {/* Including the Footer component on the About page */}
         </>
       );
     } else if (this.state.currentPage === "MyPortfolio") {
       return (
         <>
           <MyPortfolio />
-          <Footer /> {/* Include the Footer component on the MyPortfolio page */}
+          <Footer /> {/* Including the Footer component on the MyPortfolio page */}
         </>
       );
   

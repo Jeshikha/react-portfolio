@@ -8,16 +8,16 @@
     margin: 10px; /* Margin between cards */
     padding: 20px; /* Padding within cards */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
-    width: calc(55% - 20px); /* Adjust width for 2 columns with margin */
+    width: calc(55% - 20px); 
     display: inline-block;
     vertical-align: top;
-    position: relative; /* Set position to relative for background image */
+    position: relative; 
   }
   
-  /* Add background image for the card */
+  /* Adding background image for the card */
   .project-card:before {
     content: '';
-    background-image: url('../pages/back.jpg'); /* Replace with your image path */
+    background-image: url('../pages/back.jpg'); 
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -25,7 +25,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1; /* Place the image behind the card content */
+    z-index: -1; /* Placing the image behind the card content */
   }
   
   /* Title styles */
@@ -40,28 +40,27 @@
     display: block; /* Display links as blocks for spacing */
     margin: 5px 0;
     text-decoration: none;
-    color: #fbfbfb; /* Link color */
+    color: #fbfbfb; 
     background-color: rgba(114, 48, 173, 0.636);
   }
   
   /* Add styles for "Deployed Version" and "GitHub Repository" links */
   .project-link:hover {
-    background-color: purple; /* Change to the color you prefer on hover */
-    color: white;
+    background-color: purple; 
     border: none;
     padding: 5px 10px;
     cursor: pointer;
     transition: background-color 0.3s;
-    border-radius: 5px; /* Rounded corners for the button */
+    border-radius: 5px; 
   }
   
   /* Image styles */
   .project-image {
-    width: 100%; /* Make the image fill its container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Making the image fill its container */
+    height: auto; /* Maintaining aspect ratio */
     display: block;
-    border: 1px solid #e2e8f0; /* Add a border to the image */
-    border-radius: 5px; /* Rounded corners for the image */
+    border: 1px solid #e2e8f0; /* Adding a border to the image */
+    border-radius: 5px; 
     margin-bottom: 0%;
   }
   
@@ -70,13 +69,13 @@
     text-align: center;
   }
   
-  /* Make the carousel 75% width and center it */
+  
   .projects-page {
-    width: 100%; /* Make the background cover the entire page */
+    width: 100%; 
     margin: 0;
     background: url('../pages/back.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-color: #00000088; /* Faded dark background color */
+    background-color: #00000088; 
   }
   
   /* Button styles */
@@ -86,18 +85,18 @@
   }
   
   .carousel-controls button {
-    background-color: purple; /* Change to the color you prefer */
+    background-color: purple; 
     color: white;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
-    border-radius: 20px; /* Rounded corners for the button */
+    border-radius: 20px; 
     margin: 10px;
   }
   
   .carousel-controls button:hover {
-    background-color: #5d1091; /* Change to the color you prefer on hover */
+    background-color: #5d1091; 
   }
   

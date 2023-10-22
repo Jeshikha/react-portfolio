@@ -1,9 +1,10 @@
 import React from "react";
-import "./NavTabs.css"; // Import the CSS file for custom styles
+import "./NavTabs.css"; // Importing the CSS file for custom styles
 
 function NavTabs(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark custom-nav">
+      {/* eslint-disable-next-line */}
       <a className="navbar-brand" href="#">
         Jess Rama
       </a>

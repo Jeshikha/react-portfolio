@@ -8,15 +8,15 @@
   }
   
   .custom-nav .nav-link:hover {
-    background-color: #555; /* Change background on hover */
-    color: white; /* Text color on hover */
+    background-color: #555; 
+    color: white; 
   }
   .navbar-brand {
-    font-size: 2rem; /* Adjust the font size as needed */
-    font-weight: bold; /* Add font weight if desired */
-    color: #a24ee6; /* Text color */
-    text-decoration: none; /* Remove underlines */
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #a24ee6;
+    text-decoration: none; 
     margin-left: 10px;
     font-family: 'Mochain', sans-serif;  
-    /* Add other styles as needed */
+    
   }

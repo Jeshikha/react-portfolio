@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./projectCard.css"; // Import the CSS file for custom styles
+import "./projectCard.css"; // Importing the CSS file for custom styles
 const projects = require('./projectsData.json');
 
 const MyPortfolio = () => {

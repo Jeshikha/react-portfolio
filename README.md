@@ -34,7 +34,7 @@ This project is open-source under the MIT License.
 
 ## Useful Links
 * GitHub Repository - https://github.com/Jeshikha/react-portfolio
-* Deployed Link of App - 
+* Deployed Link of App - https://jeshikha.github.io/react-portfolio/
 
 ## Screenshots of Deployed App
 The following images shows the web application's appearance and functionality:

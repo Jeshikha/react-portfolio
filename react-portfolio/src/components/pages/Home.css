@@ -26,7 +26,7 @@
 
 /* Styling for the name text */
 .name-text {
-    font-size: 70px; /* adjust the font size */
+    font-size: 70px; 
     font-weight: bold; /* Bold font weight */
   }
 
@@ -54,17 +54,17 @@
     text-decoration: none;
     background-color: #a901fde1; /* Button background color */
     color: #fdfbfb; /* Button text color */
-    padding: 10px 90px; /* Adjust padding for more space */
+    padding: 10px 90px; /* Adjusting padding for more space */
     font-size: 1.2rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Add a smooth transition for hover effect */
+    transition: background-color 0.3s; /* Adding a smooth transition for hover effect */
     text-align: center;
     font-weight: bold;
   }
   
   /* Style for buttons on hover */
   .social-container a:hover {
-    background-color: #0056b3; /* Change to the color you prefer on hover */
+    background-color: #0056b3; 
   }

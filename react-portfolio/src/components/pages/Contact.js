@@ -6,7 +6,7 @@ import "../pages/Contact.css";
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission, e.g., send an email or perform an action
+    // Handle form submission, e.g., sending an email or perform an action
   };
 
   return (
